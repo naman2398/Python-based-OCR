@@ -67,4 +67,18 @@ Horizontal and vertical lines are removed using morphological operations, elimin
 3. **Run the OCR:**
   ```bash
    python main.py
+  ```
+## Customizations
+
+- **Modify Preprocessing Steps:** Adjust the preprocessing steps in `ocr_module/image_preprocessing.py` to suit your document characteristics.
+  
+- **Fine-Tune OCR Parameters:** Experiment with Tesseract configuration options in `ocr_module/text_recognition.py` for optimal text recognition.
+  
+- **Handle Different Languages:** Set the language parameter in `main.py` and `ocr_module/text_recognition.py` for multilingual support.
+
+Feel free to extend and adapt this project based on your specific use cases and requirements. Contributions and improvements are welcome!
+
+---
+
+This README now includes a brief explanation of each preprocessing step used in the OCR project, providing a clearer understanding of the image processing pipeline. 
 
